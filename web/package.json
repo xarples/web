@@ -18,14 +18,21 @@
   "author": "xarples",
   "license": "MIT",
   "dependencies": {
+    "@material/react-button": "^0.12.1",
+    "@material/react-card": "^0.12.1",
+    "@material/react-layout-grid": "^0.12.1",
     "next": "^8.1.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.7",
     "@types/node": "^12.0.2",
     "@types/react": "^16.8.18",
     "@types/react-dom": "^16.8.4",
-    "@zeit/next-typescript": "^1.1.1"
+    "@zeit/next-typescript": "^1.1.1",
+    "@zeit/next-sass": "^1.0.1",
+    "typescript": "^3.4.5"
   }
 }

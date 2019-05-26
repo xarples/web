@@ -8,5 +8,5 @@ services:
     ports:
       - 3000:3000
     volumes: 
-      - ./web/:/usr/local/src/web/
+      - .:/usr/local/src
       - /usr/local/src/web/node_modules/
