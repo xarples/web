@@ -3,7 +3,7 @@ import * as React from 'react'
 
 interface Props {}
 
-const Index = (props: Props): any => {
+const Index = (props: Props) => {
   return (
     <div>Index</div>
   )

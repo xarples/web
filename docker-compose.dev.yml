@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: "./web/development.Dockerfile"
+    ports:
+      - 3000:3000
+    volumes: 
+      - ./web/:/usr/local/src/web/
+      - /usr/local/src/web/node_modules/
