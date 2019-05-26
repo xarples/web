@@ -6,12 +6,16 @@ import './styles.scss'
 const Header = props => {
   return (
     <header className="header">
-      <span>
-        Logo
-      </span>
-      <Button raised>
-        Get started
-      </Button>
+      <div>
+      </div>
+      <div>
+        <Button dense>
+          Go to console
+        </Button>
+        <Button raised dense>
+          Get started
+        </Button>
+      </div>
     </header>
   )
 }
